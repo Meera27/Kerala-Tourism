@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+  }
+  body{
+    background-color: #EEF2FC !important;
+  }
+
+  header {
+    /* align-content:right; */
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #607d8b;
+    /* background-color: #24252a; */
+    height: 50px;
+  }
+
+  .logo {
+    cursor: pointer;
+  }
+  
+  .nav__links a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #edf0f1;
+    text-decoration: none;
+  }
+  
+  .nav__links {
+    list-style: none;
+    display:flex;
+    float: right;
+    margin-top: 6%;
+  }
+  
+   .nav__links li {
+    padding: 0px 20px;
+  } 
+  
+  .nav__links li a {
+    transition: color 0.3s ease 0s;
+  }
+  
+  .nav__links li a:hover {
+   color: #87A9B3;
+    /* color: #0088a9; */
+  }
+  
+ .welcome{
+     align-self: center;
+     text-align: center; 
+     background-color: rgb(255,255,255,0.2); 
+     width: 25%;
+    margin: 20%;
+    width: 50%;
+    padding: 10px;
+    font-size: 50px;
+    color: black;
+} 
+/* .text{ */
+
+    /* background: rgb(255,255,255,0.2); */
+     /* position: absolute; 
+     top:auto;
+     left: 50%; 
+     color: black;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    position: fixed;
+} */
+.imagemain{
+    margin:5% 10% 0% 9%;
+    /* margin-top:10%;  */
+    height: auto;
+    align-content: center;  
+    /* margin-left: 9%; */
+    /* margin-right: 10%; */
+    width: auto; 
+    filter: drop-shadow(.5rem .5rem 1rem rgba(36,37,42, 0.5));
+
+}
+.textapzha{
+    /* margin:2% 20% 2% 38%; */
+    padding: 20px 0px 20px 0px;
+    font-family: 'Dela Gothic One', cursive;
+    text-align: center;
+}
+table th {
+    width: 50% !important;
+}
+
+.ftable{
+max-width: 50%;
+margin:auto;
+}
+.tspots{
+    text-align: center;
+}
+.iconimg{
+    height: 50px;  
+}
+.thumbnail{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  border-radius: 5px;
+}
+a{
+  text-decoration: none;
+}
